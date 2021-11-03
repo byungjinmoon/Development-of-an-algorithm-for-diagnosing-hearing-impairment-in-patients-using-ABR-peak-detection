@@ -32,7 +32,7 @@ This algorithm is implemented in matlab.
           ![image](https://user-images.githubusercontent.com/86009768/140026063-84d31325-b393-4f4e-ae12-1395d798b8a0.png)
 
 * V-wave, III-wave, I-wave detection from candidate peak points through the reference provided by the doctor.
-  1. V, III, I-wave detection from 75dB ABR<br>
+  1. V, III, I-wave detection from 75dB ABR
     * Reference
       - V-wave : 6.4ms +/-0.3ms
       - III-wave : 4.3ms +/-0.3ms
