@@ -44,7 +44,7 @@ This algorithm is implemented in matlab.
       - Below 50dB, each is delayed within 0.6-0.7ms.
         Comparison the ABR peak points found by the (1) doctor with the (2) ABR peak detection algorithm<br>
         (1) Doctor<br>
-            ![image](https://user-images.githubusercontent.com/86009768/140026805-80d0164f-764f-4434-8067-2acc14d10b59.png)
+            ![image](https://user-images.githubusercontent.com/86009768/140026805-80d0164f-764f-4434-8067-2acc14d10b59.png)<br>
         (2) ABR peak detection algorithm<br>
             ![image](https://user-images.githubusercontent.com/86009768/140026825-6a6abfd0-98fd-4584-8c1f-e3b92065de50.png)
 
