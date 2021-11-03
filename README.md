@@ -31,6 +31,23 @@ This algorithm is implemented in matlab.
        3) Candidate peak points detection - Candidate peaks are determined up to the 8th largest difference between valley and peak.<br>
           ![image](https://user-images.githubusercontent.com/86009768/140026063-84d31325-b393-4f4e-ae12-1395d798b8a0.png)
 
+* V-wave, III-wave, I-wave detection from candidate peak points through the reference provided by the doctor.
+  1) V, III, I-wave detection from 75dB ABR<br>
+    * Reference
+      - V-wave : 6.4ms +/-0.3ms
+      - III-wave : 4.3ms +/-0.3ms
+      - I-wave : 1.7ms +/-0.2ms
+      
+  2) V, III, I-wave detection from 60dB ABR 
+    - It is delayed within 0.2ms in V, III, I -wave of 70dB ABR.
+  3) V, III, I-wave detection from   50dB, 40dB, 30dB, 20dB, 10dB ABR
+    - Below 50dB, each is delayed within 0.6-0.7ms.
+      Comparison the ABR peak points found by the (1) doctor with the (2) ABR peak detection algorithm<br>
+      (1) ![image](https://user-images.githubusercontent.com/86009768/140026805-80d0164f-764f-4434-8067-2acc14d10b59.png)
+      (2) ![image](https://user-images.githubusercontent.com/86009768/140026825-6a6abfd0-98fd-4584-8c1f-e3b92065de50.png)
+
+
+
 
                 
 
