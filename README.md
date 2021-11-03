@@ -22,14 +22,14 @@ This algorithm is implemented in matlab.
 * Candidate Peak points detection to find ABR peaks
   * Peak and valley detection <br>
     * Y Zhang et al, “An Adaptive Dual-Window Step Detection Method for a Waist-Worn Inertial Navigation System”, The Journal of Navigation, 2016<br>
-      Dual window method - By shifting two windows in pairs, the position becomes a peak or valley point when the position of the largest or smallest value within each window range is the same.<br>
-      Ex) Valley and peak detection of 75dB ABR signal
-         1) Dual window method<br>
-            ![image](https://user-images.githubusercontent.com/86009768/140025396-ec9dddeb-bc81-4c48-bb42-5fb7462d8ddc.png)<br>
-         2) Valley and peak detection of 75dB ABR signal<br>
-            ![image](https://user-images.githubusercontent.com/86009768/140025544-926043ca-022c-4a20-862f-70eeb4f50ac1.png)
-         3) Candidate peak points detection - Candidate peaks are determined up to the 8th largest difference between valley and peak.<br>
-            ![image](https://user-images.githubusercontent.com/86009768/140026063-84d31325-b393-4f4e-ae12-1395d798b8a0.png)
+      * Dual window method - By shifting two windows in pairs, the position becomes a peak or valley point when the position of the largest or smallest value within each window range is the same.<br>
+    * Ex) Valley and peak detection of 75dB ABR signal
+       1) Dual window method<br>
+          ![image](https://user-images.githubusercontent.com/86009768/140025396-ec9dddeb-bc81-4c48-bb42-5fb7462d8ddc.png)<br>
+       2) Valley and peak detection of 75dB ABR signal<br>
+          ![image](https://user-images.githubusercontent.com/86009768/140025544-926043ca-022c-4a20-862f-70eeb4f50ac1.png)
+       3) Candidate peak points detection - Candidate peaks are determined up to the 8th largest difference between valley and peak.<br>
+          ![image](https://user-images.githubusercontent.com/86009768/140026063-84d31325-b393-4f4e-ae12-1395d798b8a0.png)
 
 
                 
